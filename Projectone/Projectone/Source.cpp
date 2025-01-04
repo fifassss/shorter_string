@@ -1,4 +1,4 @@
-// подключение дериктивы для стандарта ввода \ вывода
+// ГЇГ®Г¤ГЄГ«ГѕГ·ГҐГ­ГЁГҐ Г¤ГҐГ°ГЁГЄГІГЁГўГ» Г¤Г«Гї Г±ГІГ Г­Г¤Г Г°ГІГ  ГўГўГ®Г¤Г  \ ГўГ»ГўГ®Г¤Г 
 #include <iostream> 
 #include <string>
 
@@ -15,7 +15,7 @@ int main()
 
         int num_two{};
 
-        std::cout << "please,write something." << '\n';
+        std::cout << "please,write something,if you want leave from programm,please write 'l'." << '\n';
 
         std::cin >> worked;
 
@@ -26,7 +26,7 @@ int main()
 
         }
 
-        std::cout << "now,please,write num one,that number means, where to start short string." << '\n';
+        std::cout << "now,please,write num one,that number means, where to start short string,if you want leave from programm,please write 'l'." << '\n';
         
         std::cin >> num_one;
 
@@ -37,7 +37,7 @@ int main()
 
         }
 
-        std::cout << "now,please,write num two,that number means, how many symbols get." << '\n';
+        std::cout << "now,please,write num two,that number means, how many symbols get,if you want leave from programm,please write 'l'." << '\n';
 
         std::cin >> num_two;
 
